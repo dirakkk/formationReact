@@ -1,0 +1,23 @@
+{
+  "name": "trt",
+  "version": "1.0.0",
+  "description": "formationReact",
+  "main": "index.js",
+  "scripts": {
+    "startup": "webpack-dev-server --watch --port 6954"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dirakkk@github.com/dirakkk/formationReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirakkk/formationReact/issues"
+  },
+  "homepage": "https://github.com/dirakkk/formationReact#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
