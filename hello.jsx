@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Purecomposant from './purecomposant.jsx'
+import Autrecomposant from './autrecomposant.jsx'
+
 export class Hello extends Component {
 
 
@@ -12,6 +15,9 @@ export class Hello extends Component {
 	}
 
 	render() {
-		return (<div>Il est {this.state.date.toLocaleTimeString()},Nous avançons vers la lumière avec {this.props.techno}</div>)
+		return (<div>Il est {this.state.date.toLocaleTimeString()},Nous avançons vers la lumière avec {this.props.techno}
+		<Autrecomposant/>
+		</div>
+		)
 	}
 }
